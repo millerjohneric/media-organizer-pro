@@ -12,7 +12,7 @@ The script distinguishes between "New Imports" and "Managed Collections" using t
 
 ### 1. Dynamic Merging (Type-Based)
 
-* **Sources:** `H:\Photos\unorganized`, `P:\John`, `P:\Roena`.
+* **Sources:** `H:\Photos\unorganized`, `P:\John`, `P:\Spouse`.
 * **Behavior:** Files are stripped of their source subfolders and routed to central repositories based on file extension.
 * **Destinations:** * Standard Images  `H:\Photos\YYYY\MM Month`
 * RAW/Pro Photography  `P:\Photography\YYYY\MM Month`
@@ -23,8 +23,8 @@ The script distinguishes between "New Imports" and "Managed Collections" using t
 ### 2. Categorical Preservation (Base-Based)
 
 * **Sources:** `H:\PhotoGroups`, `W:\ExcessPhotos`, `W:\problem images\Junk`.
-* **Behavior:** The script respects the "Middle Path" (e.g., `...\Christina\Brent Mason\`). It inserts the Date folders *at the end* of that specific path.
-* **Result:** `W:\ExcessPhotos\Kira\Fof\image.jpg`  `W:\ExcessPhotos\Kira\Fof\2026\01 January\image.jpg`.
+* **Behavior:** The script respects the "Middle Path" (e.g., `...\KidTwo\Prom Date\`). It inserts the Date folders *at the end* of that specific path.
+* **Result:** `W:\ExcessPhotos\Kid1\Ex2\image.jpg`  `W:\ExcessPhotos\Kid1\Ex2\2026\01 January\image.jpg`.
 
 ---
 
@@ -67,7 +67,7 @@ Modify these arrays in the script to add or remove watch-folders:
 ```
 
 
-3. **Logs:** All movements and deletions are timestamped in `H:\_code\move-log2.txt`.
+3. **Logs:** All movements and deletions are timestamped in `media-organizer-pro\move-log2.txt`.
 
 ---
 

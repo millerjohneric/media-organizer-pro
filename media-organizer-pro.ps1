@@ -25,7 +25,7 @@ $VideosRoot      = "H:\Videos"
 $AudioRoot       = "H:\Audio"
 
 $ExifTool        = "C:\Tools\ExifTool\exiftool.exe"
-$LogFile         = "H:\media-organizer-pro\media-organizer-pro\move-log2.txt"
+$LogFile         = Join-Path -Path $PSScriptRoot -ChildPath "move-log.txt"
 
 $ImageExt = @(".jpg",".jpeg",".jpe",".png",".gif",".bmp",".tif",".tiff",".heic",".heif",".webp",".avif",".jp2",".j2k",".psd",".psb",".xcf",".ico")
 $RawExt   = @(".cr2",".cr3",".nef",".nrw",".arw",".srf",".sr2",".dng",".orf",".rw2",".raf",".pef",".ptx",".srw",".3fr",".iiq",".x3f")
